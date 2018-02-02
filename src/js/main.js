@@ -45,7 +45,7 @@ if (mapElement) {
       },
       mouseout: function(e) {
         if (focused && focused == layer) { return }
-        layer.setStyle({ weight: 1.5, fillOpacity: 0.4 });
+        layer.setStyle({ weight: 1.5, fillOpacity: 0.5 });
       }
     });
   };
